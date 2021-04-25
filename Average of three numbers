@@ -1,0 +1,5 @@
+Grade_1 = input("Grade 1:")
+Grade_2 = input("Grade 2:")
+Grade_3 = input("Grade 3:")
+Average = (int(Grade_3)+ int(Grade_2) + int(Grade_1))/3
+print("The average of the three grades are {0}".format(Average))
