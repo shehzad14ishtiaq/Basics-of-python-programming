@@ -1,0 +1,33 @@
+# operator based program
+print("Enter the first number:")
+a = int(input())
+print("Enter the second number:")
+b = int(input())
+print("What is the type of operation?")
+answer = input()
+# summation part
+if answer == 'sum':
+    sum = a + b
+    print("The sum of the given two numbers is {0}".format(sum))
+# difference part
+elif answer == 'subtraction':
+    if a > b:
+        difference = a - b
+        print("The difference between the two numbers are {0}".format(difference))
+    else:
+        difference = b - a
+        print("The difference between the two numbers are {0}".format(difference))
+# product part
+elif answer == 'multiplication':
+    product = a * b
+    print("The product of the two numbers is {0}".format(product))
+# division part
+else:
+    if a > b:
+        divide = a / b
+        print("The result of the division is {0}".format(divide))
+    else:
+        divide = b / a
+        print("The result of the division is {0}".format(divide))
+
+print("Thank you for your time")
