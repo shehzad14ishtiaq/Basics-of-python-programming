@@ -1,0 +1,10 @@
+print("Enter the year you want to check")
+x = int(input())
+if x%400==0:
+    print("The given year is a leap year")
+elif x%100==0:
+    print("The given year is not a leap year")
+elif x%4==0:
+    print("The given year is a leap year")
+
+print("Thank you for your time.")
